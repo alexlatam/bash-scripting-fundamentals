@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar el uso de los arreglos
-# Autor: Marco Toscano Freire - @martosfre
 
 arregloNumeros=(1 2 3 4 5 6)
 arregloCadenas=(Marco, Antonio, Pedro, Susana)

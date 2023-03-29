@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar el uso de la sentencia de iteración while
-# Autor: Marco Toscano Freire - @martosfre
 
 numero=1
 

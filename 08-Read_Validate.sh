@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar como capturar la información del usuario y validarla
-# Autor: Marco Toscano Freire - @martosfre
 
 option=0
 backupName=""
@@ -15,5 +14,3 @@ echo -e "\n"
 echo "Opción:$option , backupName:$backupName"
 read -s -p "Clave:" clave
 echo "Clave: $clave"
-
-

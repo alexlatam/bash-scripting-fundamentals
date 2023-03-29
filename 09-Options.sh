@@ -1,7 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar como se realiza el paso de opciones con sin parámetros
-# Autor: Marco Toscano - @martosfre
-
 
 echo "Programa Opciones"
 echo "Opción 1 enviada: $1"

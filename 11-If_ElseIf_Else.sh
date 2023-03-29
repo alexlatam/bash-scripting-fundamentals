@@ -1,6 +1,5 @@
 # !/bin/bash
 # Programa para ejemplificar el uso de la sentencia de decisión if, else if, else
-# Autor: Marco Toscano Freire - @martosfre
 
 edad=0
 
@@ -13,5 +12,3 @@ elif [ $edad -ge 19 ] && [ $edad -le 64 ]; then
 else
     echo "La persona es adulto mayor"
 fi
-
-

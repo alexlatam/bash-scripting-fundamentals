@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar el uso de los loops anidados
-# Autor: Marco Toscano Freire - @martosfre
 
 echo "Loops Anidados"
 for fil in $(ls)

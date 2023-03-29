@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar como se lee en un archivo
-# Autor: Marco Toscano Freire - @martosfre
 
 echo "Leer en un archivo"
 cat $1

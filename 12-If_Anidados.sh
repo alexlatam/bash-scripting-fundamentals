@@ -1,6 +1,5 @@
 # !/bin/bash
 # Programa para ejemplificar el uso de los ifs anidados
-# Autor: Marco Toscano Freire - @martosfre
 
 notaClase=0
 continua=""
@@ -19,6 +18,3 @@ if [ $notaClase -ge 7 ]; then
 else
     echo "El alumno reprueba la materia"
 fi
-
-
-

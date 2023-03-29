@@ -1,6 +1,5 @@
 # !/bin/bash
 # Programa para ejemplificar el uso de expresiones condicionales
-# Autor: Marco Toscano Freire - @martosfre
 
 edad=0
 pais=""
@@ -36,4 +35,3 @@ if [ -d $pathArchivo ]; then
 else 
     echo "El directorio $pathArchivo no existe"
 fi    
-

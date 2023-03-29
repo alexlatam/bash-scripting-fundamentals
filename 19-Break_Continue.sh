@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar el uso de break y continue
-# Autor: Marco Toscano Freire - @martosfre
 
 echo "Sentencias break y continue"
 for fil in $(ls)

@@ -1,8 +1,30 @@
 # ! /bin/bash
 # Programa que permite manejar las utilidades de Postres
-# Autor: Marco Toscano Freire - @martosfre
 
 opcion=0
+
+# Función para instalar postgres
+instalar_postgres () {
+    echo "Instalar postgres..."
+}
+
+# Función para desinstalar postgres
+desinstalar_postgres () {
+    echo "Desinstalar postres..."
+}
+
+# Función para sacar un respaldo
+sacar_respaldo () {
+    echo "Sacar respaldo..."
+    echo "Directorio backup: $1"
+}
+
+# Función para restaurar un respaldo
+restaurar_respaldo () {
+    echo "Restaurar respaldo..."
+    echo "Directorio respaldo: $1"
+}
+
 
 while :
 do
@@ -26,19 +48,21 @@ do
     #Validar la opción ingresada
     case $opcion in
         1)
-            echo -e "\nInstalar postgres....."
+            instalar_postgres
             sleep 3
             ;;
         2) 
-            echo -e "\nDesinstalar postgres...."
+            desinstalar_postgres
             sleep 3
             ;;
         3) 
-            echo -e "\nSacar respaldo..."
+            read -p "Directorio Backup:" directorioBackup
+            sacar_respaldo $directorioBackup
             sleep 3
             ;;
         4) 
-            echo -e "\nRestaurar respaldo..."
+            read -p "Directorio de Respaldos:" directorioRespaldos
+            restaurar_respaldo $directorioRespaldos
             sleep 3
             ;;
         5)  

@@ -1,6 +1,5 @@
 # !/bin/bash
 # Programa para ejemplificar el uso de la sentencia de decisión if, else
-# Autor: Marco Toscano Freire - @martosfre
 
 notaClase=0
 edad=0
@@ -8,6 +7,11 @@ edad=0
 echo "Ejemplo Sentencia If -else"
 read -n1 -p "Indique cúal es su nota (1-9):" notaClase
 echo -e "\n"
+
+# En bash se puede usar cuatro diferentes tipos de corchetes para colocar la condicion
+# [[ condicion ]] o [ condicion ]
+# (( condicion )) o ( condicion )
+
 if (( $notaClase >= 7 )); then
     echo "El alumno aprueba la materia"
 else
@@ -20,5 +24,3 @@ if [ $edad -le 18 ]; then
 else
     echo "La persona puede sufragar"
 fi
-
-

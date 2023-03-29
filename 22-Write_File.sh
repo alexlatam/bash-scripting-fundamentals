@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar como se escribe en un archivo
-# Autor: Marco Toscano Freire - @martosfre
 
 echo "Escribir en un archivo"
 

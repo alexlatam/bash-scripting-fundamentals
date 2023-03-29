@@ -1,6 +1,5 @@
 # ! /bin/bash
 # Programa para ejemplificar la creación de archivos y directorios
-# Autor: Marco Toscano Freire - @martosfre
 
 echo "Archivos - Directorios"
 

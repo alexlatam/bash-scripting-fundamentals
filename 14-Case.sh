@@ -1,7 +1,5 @@
 # !/bin/bash
 # Programa para ejemplificar el uso de la sentencia case
-# Autor: Marco Toscano Freire - @martosfre
-
 
 opcion=""
 
@@ -15,4 +13,3 @@ case $opcion in
     [C-E]) echo "No esta implementada la operación";;
     "*") "Opción Incorrecta"
 esac    
-
